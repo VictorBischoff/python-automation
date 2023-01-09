@@ -13,9 +13,12 @@ This script allows you to start and halt Vagrant virtual machines using the pyth
 
 ## Usage
 
-To use the script, run the following command:
+Ensure that you are in the vagrant directory:
 
 `cd vagrant`
+
+To use the script, run the following command:
+
 `python main.py`
 
 Follow the prompts to choose which virtual machine you want to start or halt.
