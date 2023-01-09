@@ -4,7 +4,9 @@ This script allows you to start and halt Vagrant virtual machines using the pyth
 
 ## Prerequisites
 
-- Install the requirements library:
+- Install Vagrant on your machine by following the instructions [here](https://github.com/VictorBischoff/python-automation/blob/main/vagrant/vmware-vagrant-setup.md).
+  
+- Install the python dependencies:
   `pip install -r requirements.txt`
 
 - Create a .env file inside of the vagrant directory with the following variables:
