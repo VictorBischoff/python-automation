@@ -1,24 +1,17 @@
-# Vagrant Virtual Machine Control
+# Automation Scripts
 
-This script allows you to start and halt Vagrant virtual machines using the python-vagrant library.
+This repository contains a collection of automation scripts for various tasks.
+
+## Contents
+
+- vagrant: Scripts for managing Vagrant VMs
 
 ## Prerequisites
 
-- Install the requirements library:
-  `pip install -r requirements.txt`
+- Run the following command to install the prerequisites:
 
-- Create a .env file inside of the vagrant directory with the following variables:
-  - UBUNTUPATH: path to your Ubuntu virtual machine
-  - FEDORAPATH: path to your Fedora virtual machine
+`pip install -r requirements.txt`
 
 ## Usage
 
-Ensure that you are in the vagrant directory:
-
-`cd vagrant`
-
-To use the script, run the following command:
-
-`python main.py`
-
-Follow the prompts to choose which virtual machine you want to start or halt.
+- Each script has its own README file with usage instructions.
