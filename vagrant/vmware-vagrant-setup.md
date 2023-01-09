@@ -1,10 +1,10 @@
 #### 1. Install rosetta
 ```bash
-`/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ```	
 #### 2. Install vagrant with homebrew
 ```bash
-`brew install --cask vagrant`
+brew install --cask vagrant
 ```
 #### 3. Create an account on vmware
 [wmware homepage](https://customerconnect.vmware.com/)
