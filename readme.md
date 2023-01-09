@@ -1,5 +1,6 @@
 # Automation Scripts
-
+<center><img src="automa.png"></center>
+## Overview
 This repository contains a collection of automation scripts for various tasks.
 
 ## Contents
