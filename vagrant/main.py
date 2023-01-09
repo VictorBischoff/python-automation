@@ -18,7 +18,7 @@ vm_functions = {
 }
 def main():
     while True:
-        vm = input("Choose a VM (ubuntu, fedora, debian, or exit): ").strip().lower()
+        vm = input("Choose a VM (ubuntu, ubuntu20, fedora, debian, or exit): ").strip().lower()
         
         if vm == "exit":
             break
