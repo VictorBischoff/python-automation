@@ -7,7 +7,7 @@ This script allows you to start and halt Vagrant virtual machines using the pyth
 - Install the requirements library:
   `pip install -r requirements.txt`
 
-- Create a .env file with the following variables:
+- Create a .env file inside of the vagrant directory with the following variables:
   - UBUNTUPATH: path to your Ubuntu virtual machine
   - FEDORAPATH: path to your Fedora virtual machine
 
