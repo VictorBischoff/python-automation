@@ -35,7 +35,7 @@ while True:
         
         
         if fedora_user_in == "start":
-            stop_fedora()
+            start_fedora()
             break
         if fedora_user_in == "stop":
             stop_fedora()
