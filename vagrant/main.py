@@ -16,19 +16,23 @@ vm_functions = {
         "stop": stop_debian
     }
 }
-
-while True:
-    vm = input("Choose a VM (ubuntu, fedora, debian, or exit): ").strip().lower()
-    
-    if vm == "exit":
-        break
-    
-    if vm in vm_functions:
-        action = input("Choose an action (start or stop): ").strip().lower()
+def main():
+    while True:
+        vm = input("Choose a VM (ubuntu, fedora, debian, or exit): ").strip().lower()
         
-        if action in vm_functions[vm]:
-            vm_functions[vm][action]()
+        if vm == "exit":
+            break
+        
+        if vm in vm_functions:
+            action = input("Choose an action (start or stop): ").strip().lower()
+            
+            if action in vm_functions[vm]:
+                vm_functions[vm][action]()
+            else:
+                print("Invalid action")
         else:
-            print("Invalid action")
-    else:
-        print("Invalid VM")
+            print("Invalid VM")
+
+if __name__ == "__main__":
+    main()
+
