@@ -1,9 +1,11 @@
 from ubuntu import start_ubuntu, stop_ubuntu
 from fedora import start_fedora, stop_fedora
+from debian import start_debian, stop_debian
 
 while True:
     print("FEDORA")
     print("UBUNTU")
+    print("DEBIAN")
     print("EXIT")
     user_in = input("CHOOSE VM: ")
     user_in = user_in.strip().lower()
@@ -42,6 +44,25 @@ while True:
             break
         if fedora_user_in == "exit":
             break
+        
+    if user_in == "debian":
+        
+        print("START")
+        print("STOP")
+        print("EXIT")
+        debian_user_in = input("CHOOSE OPTION:")
+        debian_user_in = debian_user_in.strip().lower()
+        
+        
+        if debian_user_in == "start":
+            start_debian()
+            break
+        if debian_user_in == "stop":
+            stop_debian()
+            break
+        if debian_user_in == "exit":
+            break
+        
     if user_in == "exit":
         break
     

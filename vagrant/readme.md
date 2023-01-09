@@ -10,6 +10,7 @@ This script allows you to start and halt Vagrant virtual machines using the pyth
 - Create a .env file inside of the vagrant directory with the following variables:
   - UBUNTUPATH: path to your Ubuntu virtual machine
   - FEDORAPATH: path to your Fedora virtual machine
+  - DEBIANPATH: path to your Debian virtual machine
 
 ## Usage
 
